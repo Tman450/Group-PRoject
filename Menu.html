@@ -4,6 +4,24 @@
 <head>
     <meta charset="utf-8">
     <title>Summit Burger Menu</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </head>
   <div class="header">
   <a href="Index.html" class="logo">
@@ -18,7 +36,24 @@
   </div>
 </div>
 
+<body>
+ <center> <h2>Menu</h2></center>
+<div class="row">
+  <div class="column">
+    <img src="images/singleburger.jpg" alt="Single Burger" style="width:100%">
+ <center> <h3>Single</h3></center>
+  </div>
+  <div class="column">
+    <img src="images/doubleburger.jpg" alt="Double Burger" style="width:100%">
+     <center> <h3>Double</h3></center>
+  </div>
+  <div class="column">
+    <img src="images/fries.jpg" alt="Fries" style="width:100%">
+   <center> <h3>Fries</h3></center>
 
+  </div>
+</div>
+ </body>
 
 
 <div class="footer">
