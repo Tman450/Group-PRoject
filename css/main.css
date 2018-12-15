@@ -1,22 +1,24 @@
+body {
+  font-family: serif;
+}
+
 .header {
   overflow: hidden;
   background-color: #C6001E;
   padding:10px;
 }
 
-/* Style the header links */
 .header a {
   float: left;
   color: white;
   text-align: center;
   padding: 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 25px;
   border-radius: 5px;
 }
 
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
   padding: 0;
 }
@@ -55,4 +57,18 @@
     text-align: center;
     overflow: hidden;
     color: white;
+}
+
+.mpic {
+   width: 40%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.txt {
+    font-size: 1.5em;
+    text-align: center;
 }
