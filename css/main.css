@@ -113,3 +113,12 @@ input[type=submit]:hover {
   margin-right: auto;
   width: 50%;
 }
+
+.blt {
+    font-size: 1.5em;
+
+}
+
+.blt ul {
+    display: inline-block;
+}
